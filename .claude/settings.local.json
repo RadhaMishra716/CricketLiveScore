@@ -1,0 +1,9 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(git rev-parse *)",
+      "Bash(find . -type f \\\\\\( -name \"*.js\" -o -name \"*.jsx\" -o -name \"*.ts\" -o -name \"*.tsx\" -o -name \"*.css\" -o -name \"*.json\" \\\\\\) -not -path \"*/node_modules/*\" -not -path \"*/.next/*\" -not -path \"*/.git/*\")",
+      "Bash(curl -s \"https://api.cricapi.com/v1/currentMatches?offset=0&apikey=6c33d78c-3a32-40d7-9d9c-3004da4dbdb6\")"
+    ]
+  }
+}
